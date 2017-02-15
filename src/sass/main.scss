@@ -6,7 +6,9 @@
 
  .individual-container {
    display: inline-block;
-   height: 400px;
+   height: 550px;
+   text-align: center;
+   padding: 5px;
  }
 
  img {
@@ -21,20 +23,41 @@
   margin-bottom: 12px;
 }
 
- .individual-container {
-   text-align: center;
-   padding: 5px;
- }
-
 .name {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 800;
-  letter-spacing: .2px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-.email{
+.email {
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
   font-size: 14px;
   color: #D9D7D6;
+  margin-bottom: 20px;
+}
+
+.address {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #7B7A7B;
+  padding-bottom: 5px;
+}
+
+.phone {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #7B7A7B;
+  padding-bottom: 25px;
+}
+
+.ss-num {
+  filter: blur(4px);
+}
+
+.ss-num:hover {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: #7DC07C;
+    filter: blur(0px);  
 }

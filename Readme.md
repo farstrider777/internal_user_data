@@ -10,3 +10,5 @@ Skills practiced
 2. SCSS
   * Continued to use advanced styling features with appropriate selectors to match information obtained. from the API.
   * Used precise styling to generate a smooth and modern looking interface.
+
+TO VIEW GOTO: http://tiy-josh-internal_user_data.surge.sh/

@@ -11,7 +11,6 @@ function getData (callback) {
 var info = {};
 
 function print(data){
-    console.log(data);
     info = data.results[0];
     $(".container").after(`
       <div class="individual-container">

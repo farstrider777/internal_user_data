@@ -6,7 +6,7 @@
 
  .individual-container {
    display: inline-block;
-   height: 580px;
+   height: 510px;
    text-align: center;
    padding: 5px;
  }
@@ -19,7 +19,6 @@
   border-top: 1px solid #24A059;
   margin-left: 95px;
   margin-right: 95px;
-  margin-top: 5px;
   margin-bottom: 12px;
 }
 
@@ -27,6 +26,7 @@
   font-family: 'Asap', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  height: 25px;
 }
 
 .email {
@@ -35,6 +35,7 @@
   font-size: 14px;
   color: #D9D7D6;
   margin-bottom: 20px;
+  height: 25px;
 }
 
 .address {
@@ -42,6 +43,7 @@
   font-weight: 200;
   color: #7B7A7B;
   padding-bottom: 5px;
+  height: 26px;
 }
 
 .phone {

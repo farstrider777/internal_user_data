@@ -16,9 +16,9 @@ function print(data){
     $(".container").after(`
       <div class="individual-container">
         <div><img src="${info.picture.large}"/></div>
-        <div class="name">${info.name.first} ${info.name.last}</div>
+        <div class="name">${info.name.first.toUpperCase()} ${info.name.last.toUpperCase()}</div>
         <div class="line"></div>
-        <div class="email">${info.email}</div>
+        <div class="email">${info.email.toUpperCase()}</div>
         <div class="address">${info.location.street}</div>
         <div class="address">${info.location.city} ${info.location.state} ${info.location.postcode}</div>
         <div class="phone">${info.cell}</div>

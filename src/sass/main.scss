@@ -6,4 +6,35 @@
 
  .individual-container {
    display: inline-block;
+   height: 400px;
  }
+
+ img {
+   width: 280px;
+ }
+
+.line {
+  border-top: 1px solid #24A059;
+  margin-left: 95px;
+  margin-right: 95px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+ .individual-container {
+   text-align: center;
+   padding: 5px;
+ }
+
+.name {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+
+.email{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: #D9D7D6;
+}
